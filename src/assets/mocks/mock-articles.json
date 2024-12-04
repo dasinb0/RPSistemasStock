@@ -1,0 +1,11 @@
+{
+    "info": {
+      "servicio": "articulos.php",
+      "estado": 200,
+      "datos": [
+        { "codigo": "alfa", "descripcion": "Alfajor Especial" },
+        { "codigo": "cka", "descripcion": "Combo kit Alfajor" }
+      ]
+    }
+  }
+  

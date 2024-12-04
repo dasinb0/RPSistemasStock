@@ -1,0 +1,61 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+mat-form-field {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+mat-select, input, textarea {
+  font-size: 16px;
+  padding: 12px;
+}
+
+button {
+  margin-top: 20px;
+  align-self: center;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #d1d1d1;
+}
+
+textarea.mat-mdc-input-element {
+  min-height: 120px;
+  resize: vertical;
+}
+
+mat-error {
+  font-size: 12px;
+  color: #f44336;
+}
+
+mat-form-field.mat-focused .mat-label {
+  transform: translateY(-1.5em) scale(0.75);
+}
+
+mat-form-field.mat-form-field-should-float .mat-label {
+  color: rgba(0, 0, 0, 0.6);
+}
