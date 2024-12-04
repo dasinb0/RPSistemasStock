@@ -21,4 +21,4 @@ Antes de ejecutar el proyecto, asegúrate de tener instalados los siguientes pro
 1. Clona el repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   git clone https://github.com/dasinb0/RPSistemasStock.git
